@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<style>
+
+body{
+padding:0px;
+margin:0px;
+background:url("ac.jfif");
+width:100%;
+height:100%;
+background-size:cover;
+background-position:center;
+}
+</style>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        function writeData() {
+            alert("Our Admision is Done");
+        }
+    </script>
+
+</head>
+
+<body>
+<br><br>
+    <div style="width: 50%;margin: auto;" class="card shadow-lg p-5">
+        <form>
+            <h1 class="text-center">Jaysingpur College Jaysingpur</h1>
+            <label for="">Name</label>
+            <input type="text" placeholder="Name" class="form-control" id="nameField">
+            <br>
+            <label for="">Age</label>
+            <input type="number" placeholder="Age" class="form-control" id="ageField">
+            <br>
+            <label for="">Course</label>
+            <input type="text" placeholder="Course" class="form-control" id="courseField">
+            <br>
+            <label for="">Year</label>
+            <input type="number" placeholder="Year" class="form-control" id="yearField">
+            <br>
+            <button onclick="writeData()" class="btn btn-success shadow-lg">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
